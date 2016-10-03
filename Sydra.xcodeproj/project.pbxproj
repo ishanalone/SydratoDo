@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86B1E3781DA297E5000E5EBB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B1E3771DA297E5000E5EBB /* AppDelegate.swift */; };
+		86B1E37A1DA297E5000E5EBB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B1E3791DA297E5000E5EBB /* ViewController.swift */; };
+		86B1E37D1DA297E5000E5EBB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86B1E37B1DA297E5000E5EBB /* Main.storyboard */; };
+		86B1E3801DA297E5000E5EBB /* Sydra.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 86B1E37E1DA297E5000E5EBB /* Sydra.xcdatamodeld */; };
+		86B1E3821DA297E5000E5EBB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86B1E3811DA297E5000E5EBB /* Assets.xcassets */; };
+		86B1E3851DA297E5000E5EBB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86B1E3831DA297E5000E5EBB /* LaunchScreen.storyboard */; };
+		86B1E3901DA297E5000E5EBB /* SydraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B1E38F1DA297E5000E5EBB /* SydraTests.swift */; };
+		86B1E39B1DA297E5000E5EBB /* SydraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B1E39A1DA297E5000E5EBB /* SydraUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86B1E38C1DA297E5000E5EBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86B1E36C1DA297E4000E5EBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86B1E3731DA297E4000E5EBB;
+			remoteInfo = Sydra;
+		};
+		86B1E3971DA297E5000E5EBB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 86B1E36C1DA297E4000E5EBB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 86B1E3731DA297E4000E5EBB;
+			remoteInfo = Sydra;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		86B1E3741DA297E5000E5EBB /* Sydra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sydra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		86B1E3771DA297E5000E5EBB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		86B1E3791DA297E5000E5EBB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		86B1E37C1DA297E5000E5EBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		86B1E37F1DA297E5000E5EBB /* Sydra.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sydra.xcdatamodel; sourceTree = "<group>"; };
+		86B1E3811DA297E5000E5EBB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		86B1E3841DA297E5000E5EBB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		86B1E3861DA297E5000E5EBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86B1E38B1DA297E5000E5EBB /* SydraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SydraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86B1E38F1DA297E5000E5EBB /* SydraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SydraTests.swift; sourceTree = "<group>"; };
+		86B1E3911DA297E5000E5EBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86B1E3961DA297E5000E5EBB /* SydraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SydraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		86B1E39A1DA297E5000E5EBB /* SydraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SydraUITests.swift; sourceTree = "<group>"; };
+		86B1E39C1DA297E5000E5EBB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		86B1E3711DA297E4000E5EBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86B1E3881DA297E5000E5EBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86B1E3931DA297E5000E5EBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86B1E36B1DA297E4000E5EBB = {
+			isa = PBXGroup;
+			children = (
+				86B1E3761DA297E5000E5EBB /* Sydra */,
+				86B1E38E1DA297E5000E5EBB /* SydraTests */,
+				86B1E3991DA297E5000E5EBB /* SydraUITests */,
+				86B1E3751DA297E5000E5EBB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		86B1E3751DA297E5000E5EBB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				86B1E3741DA297E5000E5EBB /* Sydra.app */,
+				86B1E38B1DA297E5000E5EBB /* SydraTests.xctest */,
+				86B1E3961DA297E5000E5EBB /* SydraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86B1E3761DA297E5000E5EBB /* Sydra */ = {
+			isa = PBXGroup;
+			children = (
+				86B1E3771DA297E5000E5EBB /* AppDelegate.swift */,
+				86B1E3791DA297E5000E5EBB /* ViewController.swift */,
+				86B1E37B1DA297E5000E5EBB /* Main.storyboard */,
+				86B1E3811DA297E5000E5EBB /* Assets.xcassets */,
+				86B1E3831DA297E5000E5EBB /* LaunchScreen.storyboard */,
+				86B1E3861DA297E5000E5EBB /* Info.plist */,
+				86B1E37E1DA297E5000E5EBB /* Sydra.xcdatamodeld */,
+			);
+			path = Sydra;
+			sourceTree = "<group>";
+		};
+		86B1E38E1DA297E5000E5EBB /* SydraTests */ = {
+			isa = PBXGroup;
+			children = (
+				86B1E38F1DA297E5000E5EBB /* SydraTests.swift */,
+				86B1E3911DA297E5000E5EBB /* Info.plist */,
+			);
+			path = SydraTests;
+			sourceTree = "<group>";
+		};
+		86B1E3991DA297E5000E5EBB /* SydraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				86B1E39A1DA297E5000E5EBB /* SydraUITests.swift */,
+				86B1E39C1DA297E5000E5EBB /* Info.plist */,
+			);
+			path = SydraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		86B1E3731DA297E4000E5EBB /* Sydra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86B1E39F1DA297E5000E5EBB /* Build configuration list for PBXNativeTarget "Sydra" */;
+			buildPhases = (
+				86B1E3701DA297E4000E5EBB /* Sources */,
+				86B1E3711DA297E4000E5EBB /* Frameworks */,
+				86B1E3721DA297E4000E5EBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sydra;
+			productName = Sydra;
+			productReference = 86B1E3741DA297E5000E5EBB /* Sydra.app */;
+			productType = "com.apple.product-type.application";
+		};
+		86B1E38A1DA297E5000E5EBB /* SydraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86B1E3A21DA297E5000E5EBB /* Build configuration list for PBXNativeTarget "SydraTests" */;
+			buildPhases = (
+				86B1E3871DA297E5000E5EBB /* Sources */,
+				86B1E3881DA297E5000E5EBB /* Frameworks */,
+				86B1E3891DA297E5000E5EBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86B1E38D1DA297E5000E5EBB /* PBXTargetDependency */,
+			);
+			name = SydraTests;
+			productName = SydraTests;
+			productReference = 86B1E38B1DA297E5000E5EBB /* SydraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		86B1E3951DA297E5000E5EBB /* SydraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 86B1E3A51DA297E5000E5EBB /* Build configuration list for PBXNativeTarget "SydraUITests" */;
+			buildPhases = (
+				86B1E3921DA297E5000E5EBB /* Sources */,
+				86B1E3931DA297E5000E5EBB /* Frameworks */,
+				86B1E3941DA297E5000E5EBB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				86B1E3981DA297E5000E5EBB /* PBXTargetDependency */,
+			);
+			name = SydraUITests;
+			productName = SydraUITests;
+			productReference = 86B1E3961DA297E5000E5EBB /* SydraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		86B1E36C1DA297E4000E5EBB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Ishan Alone";
+				TargetAttributes = {
+					86B1E3731DA297E4000E5EBB = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					86B1E38A1DA297E5000E5EBB = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 86B1E3731DA297E4000E5EBB;
+					};
+					86B1E3951DA297E5000E5EBB = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 86B1E3731DA297E4000E5EBB;
+					};
+				};
+			};
+			buildConfigurationList = 86B1E36F1DA297E4000E5EBB /* Build configuration list for PBXProject "Sydra" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 86B1E36B1DA297E4000E5EBB;
+			productRefGroup = 86B1E3751DA297E5000E5EBB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				86B1E3731DA297E4000E5EBB /* Sydra */,
+				86B1E38A1DA297E5000E5EBB /* SydraTests */,
+				86B1E3951DA297E5000E5EBB /* SydraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		86B1E3721DA297E4000E5EBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86B1E3851DA297E5000E5EBB /* LaunchScreen.storyboard in Resources */,
+				86B1E3821DA297E5000E5EBB /* Assets.xcassets in Resources */,
+				86B1E37D1DA297E5000E5EBB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86B1E3891DA297E5000E5EBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86B1E3941DA297E5000E5EBB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		86B1E3701DA297E4000E5EBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86B1E37A1DA297E5000E5EBB /* ViewController.swift in Sources */,
+				86B1E3801DA297E5000E5EBB /* Sydra.xcdatamodeld in Sources */,
+				86B1E3781DA297E5000E5EBB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86B1E3871DA297E5000E5EBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86B1E3901DA297E5000E5EBB /* SydraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86B1E3921DA297E5000E5EBB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86B1E39B1DA297E5000E5EBB /* SydraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		86B1E38D1DA297E5000E5EBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86B1E3731DA297E4000E5EBB /* Sydra */;
+			targetProxy = 86B1E38C1DA297E5000E5EBB /* PBXContainerItemProxy */;
+		};
+		86B1E3981DA297E5000E5EBB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 86B1E3731DA297E4000E5EBB /* Sydra */;
+			targetProxy = 86B1E3971DA297E5000E5EBB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		86B1E37B1DA297E5000E5EBB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86B1E37C1DA297E5000E5EBB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		86B1E3831DA297E5000E5EBB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				86B1E3841DA297E5000E5EBB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		86B1E39D1DA297E5000E5EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		86B1E39E1DA297E5000E5EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		86B1E3A01DA297E5000E5EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Sydra/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mangoapps.Sydra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		86B1E3A11DA297E5000E5EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Sydra/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mangoapps.Sydra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		86B1E3A31DA297E5000E5EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SydraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mangoapps.SydraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sydra.app/Sydra";
+			};
+			name = Debug;
+		};
+		86B1E3A41DA297E5000E5EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SydraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mangoapps.SydraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sydra.app/Sydra";
+			};
+			name = Release;
+		};
+		86B1E3A61DA297E5000E5EBB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SydraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mangoapps.SydraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Sydra;
+			};
+			name = Debug;
+		};
+		86B1E3A71DA297E5000E5EBB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SydraUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mangoapps.SydraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Sydra;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		86B1E36F1DA297E4000E5EBB /* Build configuration list for PBXProject "Sydra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86B1E39D1DA297E5000E5EBB /* Debug */,
+				86B1E39E1DA297E5000E5EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		86B1E39F1DA297E5000E5EBB /* Build configuration list for PBXNativeTarget "Sydra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86B1E3A01DA297E5000E5EBB /* Debug */,
+				86B1E3A11DA297E5000E5EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		86B1E3A21DA297E5000E5EBB /* Build configuration list for PBXNativeTarget "SydraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86B1E3A31DA297E5000E5EBB /* Debug */,
+				86B1E3A41DA297E5000E5EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		86B1E3A51DA297E5000E5EBB /* Build configuration list for PBXNativeTarget "SydraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				86B1E3A61DA297E5000E5EBB /* Debug */,
+				86B1E3A71DA297E5000E5EBB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		86B1E37E1DA297E5000E5EBB /* Sydra.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				86B1E37F1DA297E5000E5EBB /* Sydra.xcdatamodel */,
+			);
+			currentVersion = 86B1E37F1DA297E5000E5EBB /* Sydra.xcdatamodel */;
+			path = Sydra.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 86B1E36C1DA297E4000E5EBB /* Project object */;
+}
