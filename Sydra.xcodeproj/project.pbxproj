@@ -196,6 +196,7 @@
 				TargetAttributes = {
 					86B1E3731DA297E4000E5EBB = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = WMTAELZ7FB;
 						ProvisioningStyle = Automatic;
 					};
 					86B1E38A1DA297E5000E5EBB = {
@@ -416,6 +417,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WMTAELZ7FB;
 				INFOPLIST_FILE = Sydra/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mangoapps.Sydra;
@@ -428,6 +430,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = WMTAELZ7FB;
 				INFOPLIST_FILE = Sydra/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mangoapps.Sydra;
@@ -509,6 +512,7 @@
 				86B1E3A11DA297E5000E5EBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86B1E3A21DA297E5000E5EBB /* Build configuration list for PBXNativeTarget "SydraTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +521,7 @@
 				86B1E3A41DA297E5000E5EBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		86B1E3A51DA297E5000E5EBB /* Build configuration list for PBXNativeTarget "SydraUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +530,7 @@
 				86B1E3A71DA297E5000E5EBB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
